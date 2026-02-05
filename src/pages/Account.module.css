@@ -1,0 +1,287 @@
+.page {
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: #75809a;
+}
+
+.subtitle {
+  color: #6b7488;
+  margin-top: 0.35rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.metric {
+  background: #f7f8fc;
+  border-radius: 14px;
+  padding: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.metricLabel {
+  font-size: 0.75rem;
+  color: #7d8599;
+}
+
+.metricTrend {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.metricTrenddown {
+  color: #2f7d4f;
+}
+
+.metricTrendup {
+  color: #b96b00;
+}
+
+.metricTrendflat {
+  color: #2d4cdf;
+}
+
+.infoCallout {
+  background: #eef1f9;
+  border-radius: 12px;
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: #5f687d;
+}
+
+.policies,
+.compliance,
+.communications {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.policy,
+.complianceItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.policyName {
+  font-weight: 600;
+}
+
+.policyLimit {
+  font-size: 0.8rem;
+  color: #7d8599;
+}
+
+.winnability {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+}
+
+.winnabilityScore {
+  background: #2d4cdf;
+  color: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.score {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.scoreLabel {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.driver {
+  margin-bottom: 0.75rem;
+}
+
+.driverHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.winnabilityRecommendations ul {
+  padding-left: 1.1rem;
+  margin: 0;
+  color: #5f687d;
+}
+
+.message {
+  border: 1px solid #edf0f6;
+  border-radius: 12px;
+  padding: 0.75rem;
+}
+
+.messageHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #7d8599;
+  margin-bottom: 0.35rem;
+}
+
+.messageAttachments {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.pill,
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.pillPrimary {
+  background: #2d4cdf;
+  color: #fff;
+}
+
+.pillInfo {
+  background: #e6edff;
+  color: #2d4cdf;
+}
+
+.pillMuted,
+.chipMuted {
+  background: #f1f3f8;
+  color: #6b7488;
+}
+
+.button {
+  border: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background: #2d4cdf;
+  color: #fff;
+}
+
+.buttonGhost {
+  background: #f1f3f8;
+  color: #2d4cdf;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #2d4cdf;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iconButton {
+  border: none;
+  background: #eef1f9;
+  border-radius: 10px;
+  padding: 0.4rem 0.55rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.progress {
+  height: 8px;
+  background: #edf0f6;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, #2d4cdf, #6f8bff);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.92rem;
+}
+
+.table th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6d778f;
+  padding-bottom: 0.75rem;
+}
+
+.table td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #edf0f6;
+}
+
+.tableCompact td {
+  padding: 0.6rem 0;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .winnability {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}

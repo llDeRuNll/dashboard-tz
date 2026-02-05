@@ -1,0 +1,85 @@
+.tabs {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.tab {
+  border: 1px solid #dde2f1;
+  background: transparent;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #5d657a;
+  cursor: pointer;
+}
+
+.isActive {
+  background: #2d4cdf;
+  color: #fff;
+  border-color: transparent;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.92rem;
+}
+
+.table th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6d778f;
+  padding-bottom: 0.75rem;
+}
+
+.table td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #edf0f6;
+}
+
+.tableTitle {
+  font-weight: 600;
+}
+
+.tableSub {
+  font-size: 0.75rem;
+  color: #8a93a6;
+}
+
+.pill,
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.pillhigh {
+  background: #ffe5e5;
+  color: #d43c3c;
+}
+
+.pillmedium {
+  background: #fff2d8;
+  color: #b96b00;
+}
+
+.pilllow,
+.pillcompleted {
+  background: #e6f7ec;
+  color: #2f7d4f;
+}
+
+.pillInfo {
+  background: #e6edff;
+  color: #2d4cdf;
+}
+
+.chipMuted {
+  background: #f1f3f8;
+  color: #6b7488;
+}
