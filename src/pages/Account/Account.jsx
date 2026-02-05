@@ -151,7 +151,7 @@ const Account = ({ account }) => {
 
         <SectionCard
           title="Communication"
-          action={<button className={styles.link}>Open inbox</button>}
+          action={<button className={styles.link}>Open Inbox</button>}
         >
           <div className={styles.communications}>
             {account.communications.map((message) => (
