@@ -1,0 +1,30 @@
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 24px rgba(18, 28, 45, 0.06);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.header h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

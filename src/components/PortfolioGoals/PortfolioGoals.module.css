@@ -1,0 +1,46 @@
+.goals {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.goalHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.goalDetail {
+  color: #7d8599;
+}
+
+.progress {
+  height: 8px;
+  background: #edf0f6;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, #2d4cdf, #6f8bff);
+}
+
+.goalValue {
+  font-size: 0.85rem;
+  color: #6b7488;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #2d4cdf;
+  font-weight: 600;
+  cursor: pointer;
+}
